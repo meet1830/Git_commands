@@ -92,7 +92,8 @@ git checkout main -> to go back
 28. `git remote set-url origin link-here` -> if want to change origin for commit
 
 29. fetch upstream button on the website -> say our change was merged and included in the main of original project but our fork's main will not be updated because main project does not have our forks access. 
-* if we want to keep our fork updated with the main (other contributors' merge) then we can click this on our fork's homepage. but can be done manually also 
+* method 1 
+-> if we want to keep our fork updated with the main (other contributors' merge) then we can click this on our fork's homepage. but can be done manually also 
 * method 2
 -> checkout to main branch
 -> `git fetch --all --prune` -> fetch all the updated changes -> prune means deleted will also be fetched
